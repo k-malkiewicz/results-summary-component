@@ -8,7 +8,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Links
 
-- Live Site URL: ()
+- Live Site URL: (https://results-summary-km9.netlify.app)
 
 ## Built with
 
