@@ -1,0 +1,38 @@
+$color-primary: hsl(224, 30%, 27%);
+$color-button: hsl(0, 0%, 100%);
+$bg-button: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+$bg-button-hover: hsl(224, 30%, 27%);
+
+.summary {
+    width: 370px;
+    color: $color-primary;
+    padding: 20px 40px;
+    h2 {
+        margin: 20px 0 28px;
+    }
+    button {
+        width: 100%;
+        background: $bg-button;
+        color: $color-button;
+        margin: 25px 0 0;
+        font-size: 18px;
+        padding: 16px 0;
+        border-radius: 25px;
+        &:hover {
+            background: $bg-button-hover;
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    .summary {
+        width: auto;
+        padding: 4px 30px;
+        h2 {
+            font-size: 18px;
+        }
+        button {
+            margin: 15px 0 25px;
+        }
+    }
+}

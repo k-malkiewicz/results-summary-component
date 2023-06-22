@@ -1,0 +1,15 @@
+main {
+    width: 740px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+}
+
+@media(max-width: 760px) {
+    main {
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0 0 30px 30px;
+    }
+}

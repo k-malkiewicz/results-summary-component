@@ -1,0 +1,10 @@
+<section class="summary">
+    <h2>Summary</h2>
+    <app-category-card
+        *ngFor="let category of categories"
+        [imgSrc]="category.icon"
+        [categoryName]="category.category"
+        [categoryScore]="category.score"
+    ></app-category-card>
+    <button>Continue</button>
+</section>
