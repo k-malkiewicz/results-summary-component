@@ -1,7 +1,7 @@
 $color-primary: hsl(224, 30%, 27%);
 $color-button: hsl(0, 0%, 100%);
-$bg-button: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-$bg-button-hover: hsl(224, 30%, 27%);
+$bg-button: hsl(224, 30%, 27%);
+$bg-button-hover: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
 .summary {
     width: 370px;
